@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "../css/pdppage.css";
 import home from "../images/home.png";
 import image from "../images/image.jpg";
@@ -77,7 +78,7 @@ function PDPPage(props) {
                                         <button className="r2d2__btn">Recycle</button>
                                     </div>
                                     <p className="know-more-r2d2">
-                                        <a href="">Know more</a> about the recycling and waste management
+                                    <NavLink to="/contact" className="header__nav-link">Know More</NavLink> about the recycling and waste management
                                     </p>
                                 </div>
                             </div>
