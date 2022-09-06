@@ -1,13 +1,21 @@
-import '../css/Menu.css'
+import "../css/Menu.css";
+import { Link, NavLink } from "react-router-dom";
 
 function Menu(props) {
-    return (
-        <div className="flex-container">
-            <div> <a href="http://www.google.com/">Mobile</a> </div>
-            <div><a href="">Laptop</a></div>
-            <div><a href="">Accessories</a></div>
-        </div>
-    );
-  }
+  return (
+    <div className="flex-container">
+        <div>      <NavLink to="/" className="header__nav-link">
+        Home
+      </NavLink>
+      <NavLink to="/contact" className="header__nav-link">
+        Recycle Page
+      </NavLink>
+      <NavLink to="/dashboard" className="header__nav-link">
+        Dashboard
+      </NavLink></div>
 
-  export default Menu;
+    </div>
+  );
+}
+
+export default Menu;

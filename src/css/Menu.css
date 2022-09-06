@@ -11,8 +11,10 @@
     font-size: 30px;
   }
 
-  .flex-container > div  > a{
+  .flex-container > div  > .header__nav-link{
     text-decoration: none;
     color: white;
     cursor: pointer;
+    margin-right: 15px;
+    text-transform: uppercase;
   }

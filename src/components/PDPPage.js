@@ -23,7 +23,7 @@ function PDPPage(props) {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="col-auto">
+                                    <div className="col-md">
                                         <div className="r2d2pdp__images">
                                             <ul>
                                                 <li><img src={image2} alt="slide first image" /></li>
