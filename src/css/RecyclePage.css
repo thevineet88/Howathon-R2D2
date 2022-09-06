@@ -1,0 +1,15 @@
+
+.flex-container-recycle-page {
+    display: flex;
+    color: black;
+}
+  
+.flex-container-recycle-page > div {
+    margin: 10px;
+    font-size: 30px;
+  }
+
+  .flex-container-recycle-page > div  > a{
+    text-decoration: none;
+    cursor: pointer;
+  }
