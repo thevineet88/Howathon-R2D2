@@ -21,3 +21,9 @@
   margin: 0 auto;
   max-width: 84rem;
 }
+
+.App-footer a {
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+}
