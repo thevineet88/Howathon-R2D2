@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "../css/pdppage.css";
 import home from "../images/home.png";
+import BannerHomepage from "./BannerHomepage";
 import image from "../images/image.webp";
 import image2 from "../images/image2.webp";
 import image3 from "../images/image3.webp";
@@ -9,6 +10,7 @@ function PDPPage(props) {
 
   return (
         <div className="r2d2__body">
+             <BannerHomepage className="banner-homepage" />
             <div className="container">
                 <div className="r2d2pdp">
                     <div className="row">
@@ -66,7 +68,7 @@ function PDPPage(props) {
                                     </div>
                                 </div>
                                 <div className="r2d2pdp__offer">
-                                    <p><strong>Trash for Cash month: </strong>Get <strong>$5.00</strong> off if you exchange your old electronics while purchasing this product!</p>
+                                    <p><strong>Get paid for your waste: </strong>Get <strong>$5.00</strong> off if you exchange your old electronics while purchasing this product!</p>
                                     <div className="r2d2pdp__recycle">
                                         <select name="product" id="product-list" className="r2d2__input">
                                             <option value="laptop">Laptop</option>
@@ -88,31 +90,6 @@ function PDPPage(props) {
                 <div className="r2d2pdp-description">
                     <h3>PRODUCT DESCRIPTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div className="r2d2-video-container">
-                    <iframe width="600"
-                        height="315"
-                        src="https://www.youtube.com/embed/MQLadfsvfLo"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                    <iframe width="600"
-                        height="315"
-                        src="https://www.youtube.com/embed/-uyIzKIw0xY"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                    <iframe width="600"
-                        height="315"
-                        src="https://www.youtube.com/embed/1wS_q3o5iGk"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
                 </div>
             </div>
         </div>

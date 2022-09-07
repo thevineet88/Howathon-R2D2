@@ -50,7 +50,8 @@
     }
   }
   .r2d2__breadcrumb {
-    margin-bottom: 20px;
+    margin: 20px 0;
+
   }
   .r2d2__breadcrumb img {
     vertical-align: middle;

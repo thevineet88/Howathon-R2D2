@@ -1,7 +1,6 @@
 import logo from "./logo-main.png";
 import "./App.css";
 import Menu from "./components/Menu";
-import BannerHomepage from "./components/BannerHomepage";
 import RecyclePage from "./components/RecyclePage";
 import PDPPage from "./components/PDPPage";
 import Breadcrumb from "./components/Breadcrumb";
@@ -13,10 +12,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <img src={logo} alt="logo" height={"200px"} />
+          <img src={logo} alt="logo" height={"100px"} />
           <Menu />
         </div>
-        <BannerHomepage className="banner-homepage" />
         <Breadcrumb />
       </header>
         <Routes>

@@ -1,15 +1,13 @@
 import '../css/BannerHomepage.css';
-import bannerImage from "../images/e-waste-banner.png";
+import bannerImage from "../images/e-waste-banner-no-link.png";
 import { NavLink } from 'react-router-dom';
 
-function BannerHomepage(props) {
+function recycleBanner(props) {
     return (
-        <NavLink to="/contact" className="header__nav-link">
             <div className="banner-container">
             <img src={bannerImage} alt="banner image" />
             </div>
-        </NavLink>
     );
   }
 
-  export default BannerHomepage;
+  export default recycleBanner;
