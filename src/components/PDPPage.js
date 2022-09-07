@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import "../css/pdppage.css";
 import home from "../images/home.png";
-import image from "../images/image.jpg";
-import image2 from "../images/image2.jpg";
-import image3 from "../images/image3.jpg";
+import image from "../images/image.webp";
+import image2 from "../images/image2.webp";
+import image3 from "../images/image3.webp";
 
 function PDPPage(props) {
 
@@ -37,8 +37,8 @@ function PDPPage(props) {
                         <div className= "col-md-6">
                             <div className="r2d2pdp__details">
                                 <div className="r2d2pdp__attribute">
-                                    <h2>Title product</h2>
-                                    <p>Fiodio Mechanical Gaming Keyboard, LED Rainbow Gaming Backlit, 104 Anti-ghosting Keys, Quick-Response Black Switches, Multimedia Control for PC and Desktop Computer....</p>
+                                    <h2>APPLE 2020 Macbook Pro M1</h2>
+                                    <p>Stylish & Portable Thin and Light Laptop.13.3 inch Quad LED Backlit IPS Display (227 PPI, 500 nits Brightness, Wide Colour (P3), True Tone Technology). Light Laptop without Optical Disk Drive.</p>
                                     <div className="rating">
                                         <span className="fa fa-star checked"></span>
                                         <span className="fa fa-star checked"></span>
@@ -48,7 +48,7 @@ function PDPPage(props) {
                                         <span>(12)</span>
                                     </div>
                                     <div className="r2d2pdp__scope">
-                                        <span className="r2d2pdp__price">$399.99</span><span className="r2d2pdp__discount">$299.99</span><span className="r2d2pdp__aviablity">IN STOCK</span>
+                                        <span className="r2d2pdp__price">$999.99</span><span className="r2d2pdp__discount">$899.99</span><span className="r2d2pdp__aviablity">IN STOCK</span>
                                         <div className="r2d2pdp__cart">
                                             <select name="quantity" id="add-to-cart" className="r2d2__input">
                                                 <option value="1">1</option>
@@ -78,7 +78,7 @@ function PDPPage(props) {
                                         <button className="r2d2__btn">Recycle</button>
                                     </div>
                                     <p className="know-more-r2d2">
-                                    <NavLink to="/contact" className="header__nav-link">Know More</NavLink> about the recycling and waste management
+                                        <NavLink to="/contact" className="header__nav-link">Know More</NavLink> about the recycling and waste management
                                     </p>
                                 </div>
                             </div>
@@ -88,6 +88,31 @@ function PDPPage(props) {
                 <div className="r2d2pdp-description">
                     <h3>PRODUCT DESCRIPTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div className="r2d2-video-container">
+                    <iframe width="600"
+                        height="315"
+                        src="https://www.youtube.com/embed/MQLadfsvfLo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <iframe width="600"
+                        height="315"
+                        src="https://www.youtube.com/embed/-uyIzKIw0xY"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <iframe width="600"
+                        height="315"
+                        src="https://www.youtube.com/embed/1wS_q3o5iGk"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
