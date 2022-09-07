@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5e5767d.css",
-    "main.js": "/static/js/main.2d723dfd.js",
+    "main.css": "/static/css/main.0f68e617.css",
+    "main.js": "/static/js/main.5f80e83b.js",
     "static/js/787.62ad82b2.chunk.js": "/static/js/787.62ad82b2.chunk.js",
     "static/media/recycle-delivery.png": "/static/media/recycle-delivery.e4f453392b2fe9f01c15.png",
-    "static/media/image2.jpg": "/static/media/image2.45c6ef2ff8e17c032f4e.jpg",
-    "static/media/image3.jpg": "/static/media/image3.df07b9c087b1476da00a.jpg",
-    "static/media/image.jpg": "/static/media/image.2efdd6c027b38ea01af0.jpg",
     "static/media/e-waste-banner.jpeg": "/static/media/e-waste-banner.14d337da6e8c070ea4e6.jpeg",
     "static/media/logo-main.png": "/static/media/logo-main.dbeb53a337907c72443d.png",
     "static/media/recycle-steps.png": "/static/media/recycle-steps.e8cc50f4071d9ef5168b.png",
+    "static/media/image2.webp": "/static/media/image2.c4245b6b46a66cc18437.webp",
+    "static/media/image.webp": "/static/media/image.398f031baaf4bdeb5ab9.webp",
+    "static/media/image3.webp": "/static/media/image3.284c4fdeef3a6393c7a8.webp",
     "index.html": "/index.html",
-    "main.b5e5767d.css.map": "/static/css/main.b5e5767d.css.map",
-    "main.2d723dfd.js.map": "/static/js/main.2d723dfd.js.map",
+    "main.0f68e617.css.map": "/static/css/main.0f68e617.css.map",
+    "main.5f80e83b.js.map": "/static/js/main.5f80e83b.js.map",
     "787.62ad82b2.chunk.js.map": "/static/js/787.62ad82b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5e5767d.css",
-    "static/js/main.2d723dfd.js"
+    "static/css/main.0f68e617.css",
+    "static/js/main.5f80e83b.js"
   ]
 }

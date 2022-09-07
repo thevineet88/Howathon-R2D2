@@ -8,7 +8,7 @@ function Menu(props) {
             <NavLink to="/" className="header__nav-link">
               Home
             </NavLink>
-            <NavLink to="/contact" className="header__nav-link">
+            <NavLink to="/recycle" className="header__nav-link">
               Recycle Page
             </NavLink>
         </div>
