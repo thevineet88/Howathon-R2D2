@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b5e5767d.css",
-    "main.js": "/static/js/main.8f806b12.js",
+    "main.js": "/static/js/main.2d723dfd.js",
     "static/js/787.62ad82b2.chunk.js": "/static/js/787.62ad82b2.chunk.js",
     "static/media/recycle-delivery.png": "/static/media/recycle-delivery.e4f453392b2fe9f01c15.png",
     "static/media/image2.jpg": "/static/media/image2.45c6ef2ff8e17c032f4e.jpg",
@@ -12,11 +12,11 @@
     "static/media/recycle-steps.png": "/static/media/recycle-steps.e8cc50f4071d9ef5168b.png",
     "index.html": "/index.html",
     "main.b5e5767d.css.map": "/static/css/main.b5e5767d.css.map",
-    "main.8f806b12.js.map": "/static/js/main.8f806b12.js.map",
+    "main.2d723dfd.js.map": "/static/js/main.2d723dfd.js.map",
     "787.62ad82b2.chunk.js.map": "/static/js/787.62ad82b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5e5767d.css",
-    "static/js/main.8f806b12.js"
+    "static/js/main.2d723dfd.js"
   ]
 }

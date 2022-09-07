@@ -22,10 +22,13 @@ function App() {
         <Routes>
           <Route exact path="/" element={<PDPPage />} />
           <Route path="/contact" element={<RecyclePage />} />
-          <Route path="/Dashboard" element={<R2D2Dashboard />} />
+          <Route path="/dashboard" element={<R2D2Dashboard />} />
         </Routes>
 
-      <footer className="App-footer">© 2022 R2-D2 LLC</footer>
+      <footer className="App-footer">© 2022 R2-D2 LLC
+            <NavLink to="/dashboard" style={{float:'right'}}>
+              Official Portal
+            </NavLink></footer>
     </div>
   );
 }

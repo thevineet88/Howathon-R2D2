@@ -4,15 +4,14 @@ import { Link, NavLink } from "react-router-dom";
 function Menu(props) {
   return (
     <div className="flex-container">
-        <div>      <NavLink to="/" className="header__nav-link">
-        Home
-      </NavLink>
-      <NavLink to="/contact" className="header__nav-link">
-        Recycle Page
-      </NavLink>
-      <NavLink to="/dashboard" className="header__nav-link">
-        Dashboard
-      </NavLink></div>
+        <div>
+            <NavLink to="/" className="header__nav-link">
+              Home
+            </NavLink>
+            <NavLink to="/contact" className="header__nav-link">
+              Recycle Page
+            </NavLink>
+        </div>
 
     </div>
   );
