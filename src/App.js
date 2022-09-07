@@ -21,7 +21,7 @@ function App() {
       </header>
         <Routes>
           <Route exact path="/" element={<PDPPage />} />
-          <Route path="/contact" element={<RecyclePage />} />
+          <Route path="/recycle" element={<RecyclePage />} />
           <Route path="/dashboard" element={<R2D2Dashboard />} />
         </Routes>
 

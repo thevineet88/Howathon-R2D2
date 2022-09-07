@@ -78,7 +78,7 @@ function PDPPage(props) {
                                         <button className="r2d2__btn">Recycle</button>
                                     </div>
                                     <p className="know-more-r2d2">
-                                        <NavLink to="/contact" className="header__nav-link">Know More</NavLink> about the recycling and waste management
+                                        <NavLink to="/recycle" className="header__nav-link">Know More</NavLink> about the recycling and waste management
                                     </p>
                                 </div>
                             </div>
